@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // WhatsApp notification
       const waMsg = `*New Free Consultation Booking*\n\n*Name:* ${lead.name}\n*Phone:* ${lead.phone}\n*Service:* ${lead.service}\n*Business Category:* ${lead.category}\n*Source:* Homepage Hero`;
-      const waUrl = "https://wa.me/917439469915?text=" + encodeURIComponent(waMsg);
+      const waUrl = "https://wa.me/919748715662?text=" + encodeURIComponent(waMsg);
 
       setTimeout(() => {
         if (btn) btn.innerHTML = '✓ Booked Successfully!';
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
       sendLeadToGoogleSheet(lead);
 
       const waMsg = `*New Free Consultation Booking*\n\n*Name:* ${lead.name}\n*Phone:* ${lead.phone}\n*Service:* ${lead.service}\n*Business Category:* ${lead.category}\n*Source:* Mobile Hero`;
-      const waUrl = "https://wa.me/917439469915?text=" + encodeURIComponent(waMsg);
+      const waUrl = "https://wa.me/919748715662?text=" + encodeURIComponent(waMsg);
 
       setTimeout(() => {
         if (btn) btn.innerHTML = '✓ Booked Successfully!';
